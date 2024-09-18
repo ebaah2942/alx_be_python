@@ -1,7 +1,7 @@
 choice = input("What's the weather like today? (sunny/rainy/cold): ")
 
 if choice == "sunny":
-    print("Wear a t-shirt and sunglass")
+    print("Wear a t-shirt and sunglasses")
 elif choice == "rainy":
     print("Don't forget your umbrella and a raincoat.")
 elif choice == "cold":
