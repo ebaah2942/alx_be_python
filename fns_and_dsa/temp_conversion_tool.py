@@ -20,4 +20,4 @@ elif choice.upper() == "F":
     print(f"{convert}°C is {fahrenheit}°F.")
     
 else:
-    print("Invalid choice. Please enter C or F.")
+    print("Invalid temperature. Please enter a numeric value.")
