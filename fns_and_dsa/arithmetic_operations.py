@@ -18,6 +18,6 @@ def perform_operation():
         print("Invalid operation.")
         return
 
-    print(f"Result: {result}")
+    print(f"{num1}, {num2}, {operation} = {result}")
 
 perform_operation()
