@@ -15,13 +15,13 @@ class BankAccount:
             return False
         else:    
             self.current_balance -= amount
-            print(f"Withdrawn: ${amount} successfully")
+            print(f"Withdrew: ${amount}")
             return True
 
    
     
     def display_balance(self):
-        print(f"Balance: ${self.current_balance:.2f}")
+        print(f"Current balance: ${self.current_balance:.2f}")
 
 
 BankAccount(200)       
